@@ -185,6 +185,22 @@ z-index:4;
     
   }
 }
+@media only screen and (max-width: 731px) {
+  .span12 {
+    margin-top:-480px;
+    margin-right:65px;
+    transform: rotate(0deg);
+    
+  }
+}
+@media only screen and (max-width: 1336px) {
+  .span12 {
+    margin-top:-480px;
+    margin-right:65px;
+    transform: rotate(0deg);
+    
+  }
+}
 .about_para {
   margin-bottom: 0px;
   padding-bottom: 10px;
