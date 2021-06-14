@@ -175,9 +175,7 @@ z-index:4;
 }
 @media only screen and (max-width: 480px) {
   .span12 {
-    margin-top:-480px;
-    margin-right:65px;
-    transform: rotate(0deg);
+    display:none;
     
   }
 }
