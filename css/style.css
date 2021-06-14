@@ -162,7 +162,7 @@ b{
 margin-top:-250px;
 float:right;
 margin-right:-70px;
-transform: rotate(180deg);
+transform: rotate(90deg);
 -ms-transform: rotate(90deg);
 z-index:4;
 }
@@ -173,6 +173,15 @@ z-index:4;
   background: rgba(255, 0, 0, 0);
 
 }
+@media only screen and (max-width: 600px) {
+  .span12 {
+    margin-top:-480px;
+    margin-right:65px;
+    transform: rotate(0deg);
+    
+  }
+}
+
 .span21:hover
 {
   border:2px dashed red;
@@ -192,7 +201,7 @@ z-index:4;
 
 @media screen and (max-width: 1336px) {
   .TitleMessage .heading .main {
-    font-size: 70px;
+    font-size: 50px;
     margin-top: -12px;
     font-weight: 300;
   }
