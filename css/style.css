@@ -177,6 +177,14 @@ z-index:4;
 {
   border:2px dashed red;
 }
+@media only screen and (max-width: 600px) {
+  .span12 {
+    margin-top:-480px;
+    margin-right:65px;
+    transform: rotate(0deg);
+    
+  }
+}
 .about_para {
   margin-bottom: 0px;
   padding-bottom: 10px;
