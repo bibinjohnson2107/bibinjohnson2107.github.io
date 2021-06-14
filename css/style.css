@@ -162,7 +162,7 @@ b{
 margin-top:-250px;
 float:right;
 margin-right:-70px;
-transform: rotate(90deg);
+transform: rotate(0deg);
 -ms-transform: rotate(90deg);
 z-index:4;
 }
